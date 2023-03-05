@@ -1,0 +1,22 @@
+﻿<Window x:Class="hw4.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:hw4"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="544.667" Width="738.667">
+    <Grid>
+        <Image x:Name="target" HorizontalAlignment="Left" Height="180" Margin="398,10,0,0" VerticalAlignment="Top" Width="270"/>
+        <Button Content="Matching" HorizontalAlignment="Left" Margin="230,440,0,0" VerticalAlignment="Top" Width="130" Height="40" Click="Matching1_Click"/>
+        <Image x:Name="reference" HorizontalAlignment="Left" Height="180" Margin="40,10,0,0" VerticalAlignment="Top" Width="270"/>
+        <Button x:Name="openr" Content="Openr" HorizontalAlignment="Left" Margin="41,393,0,0" VerticalAlignment="Top" Width="130" Height="40" Click="Openr_Click"/>
+        <Button x:Name="opent" Content="Opent" HorizontalAlignment="Left" Margin="41,440,0,0" VerticalAlignment="Top" Width="130" Height="40" Click="Opent_Click"/>
+        <Image x:Name="matching" HorizontalAlignment="Left" Height="180" Margin="230,241,0,0" VerticalAlignment="Top" Width="270"/>
+        <Button x:Name="stitching" Content="Stitching" HorizontalAlignment="Left" Margin="370,440,0,0" VerticalAlignment="Top" Width="130" Height="40" Click="Stitching_Click"/>
+        <Button x:Name="register" Content="Register" HorizontalAlignment="Left" Margin="538,440,0,0" VerticalAlignment="Top" Width="130" Height="40" Click="Register_Click"/>
+        <Label Content="Reference Image" HorizontalAlignment="Left" Margin="119,195,0,0" VerticalAlignment="Top"/>
+        <Label Content="Target Image" HorizontalAlignment="Left" Margin="488,195,0,0" VerticalAlignment="Top"/>
+
+    </Grid>
+</Window>

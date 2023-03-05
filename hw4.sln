@@ -1,0 +1,45 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28307.1433
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "hw4", "hw4\hw4.csproj", "{C537B244-86D9-4DBD-B0DD-0E5E5FE6224E}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{2EA8C0F2-CB36-4DB0-803E-77E4D2F8FAEA}"
+	ProjectSection(SolutionItems) = preProject
+		..\CoordinateTransform.cs = ..\CoordinateTransform.cs
+		..\Enum.cs = ..\Enum.cs
+		..\FastHessian.cs = ..\FastHessian.cs
+		..\Image.cs = ..\Image.cs
+		..\ImageMatching.cs = ..\ImageMatching.cs
+		..\IntegralImage.cs = ..\IntegralImage.cs
+		..\KdTree.cs = ..\KdTree.cs
+		..\KeyPoint.cs = ..\KeyPoint.cs
+		..\LeastSquare.cs = ..\LeastSquare.cs
+		..\LensDistortion.cs = ..\LensDistortion.cs
+		..\MathNet.Numerics.dll = ..\MathNet.Numerics.dll
+		..\MathNet.Numerics.xml = ..\MathNet.Numerics.xml
+		..\OrientationInfo.cs = ..\OrientationInfo.cs
+		..\RANSAC.cs = ..\RANSAC.cs
+		..\SURF.cs = ..\SURF.cs
+		..\SurfDescriptor.cs = ..\SurfDescriptor.cs
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{C537B244-86D9-4DBD-B0DD-0E5E5FE6224E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C537B244-86D9-4DBD-B0DD-0E5E5FE6224E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C537B244-86D9-4DBD-B0DD-0E5E5FE6224E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C537B244-86D9-4DBD-B0DD-0E5E5FE6224E}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {D869E78C-40E1-4EC8-AF1B-4495BE49B14D}
+	EndGlobalSection
+EndGlobal
